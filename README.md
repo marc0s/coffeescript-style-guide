@@ -481,6 +481,12 @@ console.log args... # Yes
 (a, b, c, rest...) -> # Yes
 ```
 
+If using long event names, use a dash for word separation:
+
+```coffeescript
+emit 'this-is-ready'
+```
+
 [coffeescript]: http://jashkenas.github.com/coffee-script/
 [coffeescript-issue-425]: https://github.com/jashkenas/coffee-script/issues/425
 [spine-js]: http://spinejs.com/
