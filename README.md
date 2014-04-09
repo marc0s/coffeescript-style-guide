@@ -254,11 +254,11 @@ foo = (arg1, arg2) -> # Yes
 foo = (arg1, arg2)-> # No
 ```
 
-Do not use parentheses when declaring functions that take no arguments:
+Explicitly add parentheses for functions that take no arguments to improve readability:
 
 ```coffeescript
-bar = -> # Yes
-bar = () -> # No
+bar = () -> # Yes
+bar = -> # No
 ```
 
 In cases where method calls are being chained and the code does not fit on a single line, each call should be placed on a separate line and indented by one level (i.e., two spaces), with a leading `.`.
