@@ -487,6 +487,11 @@ If using long event names, use a dash for word separation:
 emit 'this-is-ready'
 ```
 
+When working on existing code, please respect existing style. If changes to adapt it
+to current style guide are minimal, go ahead and update it, but please keep in mind
+that code style is not a goal but a way of writing code, don't spend that time you
+don't have rewriting working code :)
+
 [coffeescript]: http://jashkenas.github.com/coffee-script/
 [coffeescript-issue-425]: https://github.com/jashkenas/coffee-script/issues/425
 [spine-js]: http://spinejs.com/
